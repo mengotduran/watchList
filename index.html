@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- End of Icons -->
+    </head>
+    <body>
+        <!-- Container -->
+        <div class="main-container">
+            <div class="main-header">
+               <h1>Find Your Film</h1>
+               <p><a href="watchlist.html">My Watchlist</a></p> 
+            </div>
+        </div>
+        <!-- search container -->
+        <div class = "search-container">
+            <div class = "search-element">
+                <form class="noSubmit">
+                    <input type = "text" class = "form-control" placeholder="Blade Runner" id = "movie-search-box" onkeyup="findMovies()" onclick = "findMovies()" autocomplete="off">
+                </form>
+
+                <div class = "search-list" id = "search-list">
+                    <!-- list here -->
+                    <!-- <div class = "search-list-item">
+                        <div class = "search-item-thumbnail">
+                            <img src = "medium-cover.jpg">
+                        </div>
+                        <div class = "search-item-info">
+                            <h3>Guardians of the Galaxy Vol. 2</h3>
+                            <p>2017</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of search container -->
+        <!-- begining of contents Container -->
+        <div id="everything" class="everything">
+            <div class="body-content" id="body-content">
+                <div class="contents" id="main-content">
+                    <div class="main-content0" id="main-content0">
+                        <div>
+                            <div class="video">
+                                <button class="videoClip">
+                                    <i class="fa-solid fa-photo-film"></i>
+                                </button>
+                            </div>
+                            <div class="paragraph-text">
+                                <p class="content-text">Start Exploring</p>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
