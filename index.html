@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- End of Icons -->
+    </head>
+    <body>
+        <!-- Container -->
+        <div class="main-container">
+            <div class="main-header">
+               <h1>Find Your Film</h1>
+               <p><a href="watchlist.html">My Watchlist</a></p> 
+            </div>
+        </div>
+        <!-- End of container -->
+        <!-- Begining of search input -->
+        <div class="nosubmit">
+            <div class="formDiv">
+                <form class="form">
+                    <input id="movie-search-box" class="searchBar" type="search" placeholder="Search Movie Title..." autocomplete="off" onkeyup="findMovies()">
+                </form>
+            </div>
+        </div>
+        <!-- End of search input -->
+        <!-- begining of contents Container -->
+        <div class="body-content" id="body-content">
+            <div class="contents" id="main-content">
+                <div class="main-content0" id="main-content0">
+                    <div>
+                        <div class="video">
+                            <button class="videoClip">
+                                <i class="fa-solid fa-photo-film"></i>
+                            </button>
+                        </div>
+                        <div class="paragraph-text">
+                            <p class="content-text">Start Exploring</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Begining of display Contents -->
+                <!-- <div class="main-display" id="main-display">
+                    <div class="displayBody">
+                        <div class="imgDisplay">
+                            <img src="${moviePoster}">
+                        </div>
+                        <div class="displaySubContent">
+                            <div class="mainDisplay">
+                                <div class="displayHeader">
+                                    <h3>Blade Runner</h3>
+                                    <span>${movies[i].Title} 8.1
+                                      </span>
+                                </div>
+                                <div class="displayTitles">
+                                    <h2>${movies[i].Title}</h2>
+                                    <h3>${movies[i].Title}</h3>
+                                    <p>${movies[i].Title}</p>
+                                </div>
+                                <div class="displayText">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi explicabo quam et, nulla cumque similique unde quibusdam. Numquam nesciunt error fugiat totam, ab vitae recusandae quaerat? Voluptatem pariatur, mollitia id inventore nobis provident neque amet aut blanditiis. Ullam eius, fugiat eaque accusamus totam, ipsum consequuntur voluptatum, rerum amet repellat dolore.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- End of Contents Container -->
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
