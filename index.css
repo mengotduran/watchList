@@ -335,6 +335,11 @@ form.nosubmit {
         width: 23%;
         height: 250px;
     }
+
+    .detailsTitles {
+        align-items: center;
+        width: 100%;
+    }
 }
 
 @media ( min-width:1150px) {

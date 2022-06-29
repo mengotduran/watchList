@@ -78,7 +78,7 @@ function displayMovieDetails(details) {
             <div class="flex2">
                 <div class="detailsTitles">
                     <h3>Title: ${details.Title}</h3>
-                    <h4>Date: ${details.Year}</h4>
+                    <h4> ${details.Year}</h4>
                     <p class="star"><b><i class="fa-solid fa-star"></i></b> ${details.imdbRating}</p>
                 </div>
                 <div class="detailsTitleContents">
