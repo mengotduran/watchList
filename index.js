@@ -1,7 +1,5 @@
 const movieSearchBox = document.getElementById('movie-search-box');
 const searchList = document.getElementById('search-list');
-const everything = document.getElementById('everything')
-const bodyContent = document.getElementById("body-content")
 
 // load movies from API
 async function loadMovies(searchTerm){
@@ -66,8 +64,13 @@ function displayBodyContent() {
    
 }
 
+const everything = document.getElementById('everything')
+const bodyContent = document.getElementById("body-content")
+
 function displayMovieDetails(details) {
     bodyContent.innerHTML = ""
+    everything.style.backgroundColor="#171717"
+    everything.style.height="100vh"
     everything.innerHTML += `
     <div class="mainBodyDetail">
     <div class="bodyDetails">

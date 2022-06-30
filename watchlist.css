@@ -1,0 +1,42 @@
+.watchList-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://techstory.in/wp-content/uploads/2021/05/1182202-bg-full-netflix-grid-v2.desktop.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.watchList-header {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    font-family: Inter;
+}
+
+.watchList-header h1{
+    color:#bbb;
+    font-weight:600;
+    font-size: 40px;
+}
+
+.watchList-header p a:hover{
+    color:darkgrey;
+    background-color: beige;
+    border: 2px solid beige;
+}
+
+
+.watchList-header p a{
+    text-decoration: none;
+    color: #303030;
+    font-weight: 900;
+    border: 2px solid #F5F5F5;
+    background-color: #F5F5F5;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 24px;
+}
